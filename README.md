@@ -8,7 +8,7 @@ Benvenuto nella repo di covid-news-json-ita
 
 ## Dove posso osservare tutto in tempo reale?
 
-La mappa interattiva dei contagi è hostata [qui www.prysmlab.com/covid-news](https://www.prysmlab.com/covid-news)
+La mappa interattiva dei contagi è hostata qui > [PRYSM/covid-news](https://www.prysmlab.com/covid-news)
 
 insieme ai dati provenienti da altre fonti attendibili quali [Protezione Civile](https://www.protezionecivile.it/attivita-rischi/rischio-sanitario/emergenze/coronavirus),
 [ECDC](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases), [World Healt Organization](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports), 
@@ -24,7 +24,7 @@ Semplice, all'interno della cartella 'reg-jsons', ogni regione ha il suo file JS
 
 dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento.
 
-**Prima di modificare un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01;), quindi se dobbiamo archiviare il file 'reg-lazio.json' lo rinomineremo 'reg-lazio-2020-04-09.json', dove la data inserita sta a dichiarare la data in cui il file archiviato è stato creato.**
+**Prima di modificare un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01), quindi se dobbiamo archiviare il file 'reg-lazio.json' lo rinomineremo 'reg-lazio-2020-04-09.json', dove la data inserita sta a dichiarare la data in cui il file archiviato è stato creato.**
 
 Facendo un esempio, se voglio inserire 'Roma', dovrò andare a cercare il file 'reg-lazio.json' ed inserire roma secondo la struttura proposta di seguito.
 Se il file 'reg-lazio.json' non esiste, lo creo secondo il formato JSON.
@@ -51,11 +51,16 @@ la struttura del singolo dato è
       "lat": 40.557952,
       "lng": 8.319295,
       "totale_casi": 4,
+      "tamponi_eseguiti": "56",
       "isolamento": "???",
       "morti": "1",
       "dimessi_guariti" : "???",
-      "data": "2020-04-05T01:00",
-      "link_fonte": "https://www.xxxxxxxxx.it/zzzzz"
+      "data_aggiornamento": "2020-04-05T01:00",
+      "fonti_notizie": [
+          { "nome_fonte": "Giornale 123", "link_fonte": "https://www.xxxxxxxx.it/zzzzzz", "data_fonte": "2020-03-28T12:00", "descrizione_notizia": "+1 contagio" },
+          { "nome_fonte": "Giornale 456", "link_fonte": "https://www.nnnnnnnn.it/yyyyyy", "data_fonte": "2020-04-01T22:30", "descrizione_notizia": "+56 tamponi, +1 contagio" },
+          { "nome_fonte": "Giornale 789", "link_fonte": "https://www.cccccccc.it/aaaaaa", "data_fonte": "2020-04-05T01:00", "descrizione_notizia": "+2 contagi" }
+      ]
   }
 ```
 
@@ -69,19 +74,26 @@ di seguito le indicazioni sui valori dei singoli campi
   lat                   > :float            > latitudine del comune
   lng                   > :float            > latitudine del comune
   totale_casi           > :int              > totale dei casi di Covid-19 (compresi i morti ed i dimessi guariti, non comprende le persone in isolamento precauzionale)
+  tamponi_eseguiti      > :int | :string    > totale dei tamponi (negativi e positivi) eseguiti sulla popolazione
   isolamento            > :int | :string    > totale delle persone in isolamento preventivo
   morti                 > :int | :string    > totale dei morti confermati
   dimessi_guariti       > :int | :string    > totale delle persone guarite
-  data                  > :string           > data di aggiornamento del dato, in formato yyyy-mm-ddThh:ii (W3_STANDARD)
-  link_fonte            > :string           > link della fonte da dove sono stati presi i dati
+  data_aggiornamento    > :datetime         > data di aggiornamento del dato, in formato yyyy-mm-ddThh:ii (ISO8601>W3_STANDARD)
+  fonti_notizie         > :array            > insieme di dati delle fonti 
+  nome_fonte            > :string           > nome della fonte da cui si sono prese le notizie
+  link_fonte            > :string           > link della fonte da cui si sono prese le notizie  
+  data_fonte            > :datetime         > data della fonte da cui si sono prese le notizie in formato yyyy-mm-ddThh:ii (ISO8601>W3_STANDARD) 
+  descrizione_notizia   > :string           > una micro descrizione della notizia con i numeri aggiornati dalla fonte, separati da una virgola ,
 ```
 
 di seguito una panoramica dei dati, di come sono strutturati e di come gestirli
 
 ```
-  :string     >   testo comune, deve essere necessariamente accompagnato dalle virgolette " davanti e dietro; es. "San Vero Milis"
-  :float      >   valore numerico con la virgola, la virgola in realtà è un punto .; es. 3.14159
-  :int        >   valore numerico senza la virgola; es. 2002, 18, 69
+  :string     >   testo comune, deve essere necessariamente accompagnato dalle virgolette " davanti e dietro; es -> "San Vero Milis"
+  :float      >   valore numerico con la virgola, la virgola in realtà è un punto .; es -> 3.14159
+  :int        >   valore numerico senza la virgola; es 69
+  :datetime   >   valore :string con il formato yyyy-mm-ddThh:ii (ISO8601>W3_STANDARD), preceduto e seguito dalle virgolette "; es (per le 14:45 del 1 Aprile 2020) -> "2020-04-01T12:45"
+  :array      >   insieme di valori [1,2,3,..] in questo caso ogni valore deve seguire il formato { "dato_generico": "valore", "dato_numerico": 123 }, serve sempre la virgola tra un valore e l'altro
 ```
 
 ## Importante
@@ -92,13 +104,28 @@ perché ti stanno fornendo la risorsa gratuitamente ed il minimo che puoi fare �
 
 **LE CITTA' VANNO MESSE IN ORDINE ALFABETICO PER UNA QUESTIONE DI FACILITA' NELL'AGGIORNARE I DATI DA PARTE DI TUTTI**
 
+se non sono in ordine per favore dai tu il tuo contributo riordinandole
+
 **NON CARICARE I DATI SE NON SEI SICURO DI QUELLO CHE STAI SCRIVENDO**
+
+è per questo che vogliamo che tu inserisca sempre la fonte, con un link alla notizia
+
+**OGNI AGGIORNAMENTO DATI PREVEDE L'INSERIMENTO DI UNA NUOVA FONTE AUTOREVOLE**
+
+per evitare di creare inutili allarmismi e/o false notizie
 
 ## Credits
 
 Autore: [Riccardo Ortu](https://www.instagram.com/rikozz_)
 
+### Per la Sardegna
+
 Collaboratore: [Giacomo Collu](https://www.instagram.com/giacomo_collu)
 
+Inserimento Dati: [Roberto Martis](https://www.instagram.com/rootvanterr)
 
-In attesa di nuovi collaboratori siamo solo noi due :)
+.
+
+.
+
+### Grazie per aver letto questa breve guida
