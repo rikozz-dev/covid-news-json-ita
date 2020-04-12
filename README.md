@@ -21,7 +21,11 @@ Semplice, all'interno della cartella 'reg-jsons', ogni regione ha il suo file JS
 ```bash
   reg-nomeregione.json
 ```
+
 dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento.
+
+**Prima di modificare un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01;), quindi se dobbiamo archiviare il file 'reg-lazio.json' lo rinomineremo 'reg-lazio-2020-04-09.json', dove la data inserita sta a dichiarare la data in cui il file archiviato è stato creato.**
+
 Facendo un esempio, se voglio inserire 'Roma', dovrò andare a cercare il file 'reg-lazio.json' ed inserire roma secondo la struttura proposta di seguito.
 Se il file 'reg-lazio.json' non esiste, lo creo secondo il formato JSON.
 
