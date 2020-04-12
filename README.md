@@ -120,9 +120,11 @@ Autore: [Riccardo Ortu](https://www.instagram.com/rikozz_)
 
 ### Per la Sardegna
 
-Collaboratore: [Giacomo Collu](https://www.instagram.com/giacomo_collu)
+[Giacomo Collu](https://www.instagram.com/giacomo_collu) > Collaboratore
 
-Inserimento Dati: [Roberto Martis](https://www.instagram.com/rootvanterr)
+[Riccardo Ortu](https://www.instagram.com/rikozz_) > Creatore, Inserimento dati
+
+[Roberto Martis](https://www.instagram.com/rootvanterr) > Inserimento dati
 
 .
 
