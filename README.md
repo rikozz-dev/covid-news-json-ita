@@ -79,9 +79,9 @@ di seguito le indicazioni sui valori dei singoli campi
 di seguito una panoramica dei dati, di come sono strutturati e di come gestirli
 
 ```
-  :string     >   testo comune, deve essere accompagnato dalle virgolette " davanti e dietro, es. "San Vero Milis"
-  :float      >   valore numerico con la virgola, la virgola in realtà è un punto ., es. 3.14159
-  :int        >   valore numerico senza la virgola, es. 2002, 18, 69
+  :string     >   testo comune, deve essere necessariamente accompagnato dalle virgolette " davanti e dietro; es. "San Vero Milis"
+  :float      >   valore numerico con la virgola, la virgola in realtà è un punto .; es. 3.14159
+  :int        >   valore numerico senza la virgola; es. 2002, 18, 69
 ```
 
 ## Importante
