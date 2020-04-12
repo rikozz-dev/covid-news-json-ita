@@ -73,11 +73,11 @@ di seguito le indicazioni sui valori dei singoli campi
   sigla_provincia       > :string           > la sigla della provincia in cui è situata la suddetta città
   lat                   > :float            > latitudine del comune
   lng                   > :float            > latitudine del comune
-  totale_casi           > :int              > totale dei casi di Covid-19 (compresi i morti ed i dimessi guariti, non comprende le persone in isolamento precauzionale)
-  tamponi_eseguiti      > :int | :string    > totale dei tamponi (negativi e positivi) eseguiti sulla popolazione
-  isolamento            > :int | :string    > totale delle persone in isolamento preventivo
-  morti                 > :int | :string    > totale dei morti confermati
-  dimessi_guariti       > :int | :string    > totale delle persone guarite
+  totale_casi           > :int              > totale dei casi di Covid-19 (compresi i morti ed i dimessi guariti, NON comprende le persone in isolamento precauzionale ed i tamponi eseguiti)
+  tamponi_eseguiti      > :int | :string    > totale dei tamponi (negativi e positivi) eseguiti sulla popolazione, se sconosciuto => "???"
+  isolamento            > :int | :string    > totale delle persone in isolamento preventivo, se sconosciuto => "???"
+  morti                 > :int | :string    > totale dei morti confermati, se sconosciuto => "???"
+  dimessi_guariti       > :int | :string    > totale delle persone guarite, se sconosciuto => "???"
   data_aggiornamento    > :datetime         > data di aggiornamento del dato, in formato yyyy-mm-ddThh:ii (ISO8601>W3_STANDARD)
   fonti_notizie         > :array            > insieme di dati delle fonti 
   nome_fonte            > :string           > nome della fonte da cui si sono prese le notizie
@@ -120,11 +120,11 @@ Autore: [Riccardo Ortu](https://www.instagram.com/rikozz_)
 
 ### Per la Sardegna
 
-[Giacomo Collu](https://www.instagram.com/giacomo_collu) > Collaboratore
+[Giacomo Collu](https://www.instagram.com/giacomo_collu), collaboratore
 
-[Riccardo Ortu](https://www.instagram.com/rikozz_) > Creatore, Inserimento dati
+[Riccardo Ortu](https://www.instagram.com/rikozz_), creatore, inserimento dati
 
-[Roberto Martis](https://www.instagram.com/rootvanterr) > Inserimento dati
+[Roberto Martis](https://www.instagram.com/rootvanterr), inserimento dati
 
 .
 
