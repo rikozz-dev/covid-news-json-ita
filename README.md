@@ -105,12 +105,12 @@ di seguito una panoramica delle tipologie di dati, di come sono strutturati e di
 puoi usare questa libreria semplicemente sfruttando i RAW di GitHub, con il link strutturato in
 
 ```
-	https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-jsons/reg-nomeregione.json
+https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-jsons/reg-nomeregione.json
 ```
 
 ovviamente 'reg-nomeregione.json' va cambiato secondo il nome della regione di interesse, per esempio per la Sardegna sarà 'reg-sardegna.json'
 
-**SE USI QUESTA LIBRERIA NEI TUOI PROGETTI CITA LA FONTE**
+### SE USI QUESTA LIBRERIA NEI TUOI PROGETTI CITA LA FONTE
 
 perché ti stanno fornendo la risorsa gratuitamente ed il minimo che puoi fare è citare questa libreria
 
