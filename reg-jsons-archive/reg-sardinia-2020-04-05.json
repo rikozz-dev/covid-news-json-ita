@@ -1,0 +1,58 @@
+[
+
+	{ "denominazione_citta": "Alghero", "sigla_provincia": "SS", "lat": 40.557952, "lng": 8.319295, "totale_casi": 4, "isolamento": "???", "morti": "1", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Arborea", "sigla_provincia": "OR", "lat": 39.774, "lng": 8.5814, "totale_casi": 2, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-01T15:03", "link_fonte": "" },
+	
+	{ "denominazione_citta": "Cabras", "sigla_provincia": "OR", "lat": 39.9287100, "lng": 8.5324200, "totale_casi": 5, "isolamento": "???", "morti": "1", "dimessi_guariti" : "???", "data": "2020-04-5T02:00", "link_fonte": "" },
+	{ "denominazione_citta": "Cagliari", "sigla_provincia": "CA", "lat": 39.23054, "lng": 9.11917, "totale_casi": 126, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-1T22:00", "link_fonte": "" },
+	{ "denominazione_citta": "Calangianus", "sigla_provincia": "NU", "lat": 40.9208, "lng": 9.1958, "totale_casi": 1, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-31T10:30", "link_fonte": "" },
+	{ "denominazione_citta": "Decimomannu", "sigla_provincia": "CA", "lat": 39.3128, "lng": 8.9698, "totale_casi": 1, "isolamento": "2", "morti": "1", "dimessi_guariti" : "???", "data": "2020-03-29T15:03", "link_fonte": "" },
+	{ "denominazione_citta": "Fonni", "sigla_provincia": "NU", "lat": 40.1193200, "lng": 9.2534700, "totale_casi": 3, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-31T15:03", "link_fonte": "" },
+
+	{ "denominazione_citta": "Guspini", "sigla_provincia": "SU", "lat": 39.5395400, "lng": 8.6350200, "totale_casi": 3, "isolamento": "3", "morti": "1", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Marrubiu", "sigla_provincia": "OR", "lat": 39.7532, "lng": 8.6382, "totale_casi": 1, "isolamento": "1", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Monserrato", "sigla_provincia": "CA", "lat": 39.25611111, "lng": 9.14527777, "totale_casi": 2, "isolamento": "4", "morti": "1", "dimessi_guariti" : "???", "data": "2020-03-29T15:03", "link_fonte": "" },
+	{ "denominazione_citta": "Nuoro", "sigla_provincia": "NU", "lat": 40.3221, "lng": 9.3307, "totale_casi": 60, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-31T15:03", "link_fonte": "" },
+	{ "denominazione_citta": "Nurachi", "sigla_provincia": "OR", "lat": 39.9745100, "lng": 8.5396500, "totale_casi": 4, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-30T0:03", "link_fonte": "" },
+	{ "denominazione_citta": "Olbia", "sigla_provincia": "NU", "lat": 40.9224, "lng": 9.4866, "totale_casi": 29, "isolamento": "279", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-02T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Oristano", "sigla_provincia": "OR", "lat": 39.9035, "lng": 8.5958, "totale_casi": 11, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-1T12:00", "link_fonte": "" },
+	{ "denominazione_citta": "Ossi", "sigla_provincia": "SS", "lat": 40.6748300, "lng": 8.5925400, "totale_casi": 26, "isolamento": "74", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	
+	{ "denominazione_citta": "Porto Torres", "sigla_provincia": "OR", "lat": 40.8345, "lng": 8.41, "totale_casi": 22, "isolamento": "32", "morti": "1", "dimessi_guariti" : "???", "data": "2020-04-05T22:00", "link_fonte": "" },
+	{ "denominazione_citta": "Pula", "sigla_provincia": "CA", "lat": 39.0085, "lng": 9.0026, "totale_casi": 2, "isolamento": "10", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-01T15:03", "link_fonte": "" },
+	{ "denominazione_citta": "Samassi", "sigla_provincia": "SU", "lat": 39.4820800, "lng": 8.9053800, "totale_casi": 2, "isolamento": "???", "morti": "1", "dimessi_guariti" : "???", "data": "2020-03-25T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "San Gavino", "sigla_provincia": "SU", "lat": 39.552, "lng": 8.7929, "totale_casi": 5, "isolamento": "84", "morti": "2", "dimessi_guariti" : "0", "data": "2020-03-29T11:11", "link_fonte": "" },
+	{ "denominazione_citta": "Sanluri", "sigla_provincia": "SU", "lat": 39.5637, "lng": 8.8996, "totale_casi": 17, "isolamento": "???", "morti": "1", "dimessi_guariti" : "???", "data": "2020-03-26T10:30", "link_fonte": "" },
+	{ "denominazione_citta": "Sardara", "sigla_provincia": "SU", "lat": 39.6146500, "lng": 8.8208800, "totale_casi": 1, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-07T10:30", "link_fonte": "" },
+	{ "denominazione_citta": "Sassari", "sigla_provincia": "SS", "lat": 40.7306, "lng": 8.5519, "totale_casi": 528, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-31T15:03", "link_fonte": "" },
+	{ "denominazione_citta": "Serramanna", "sigla_provincia": "SU", "lat": 39.4233500, "lng": 8.9224300, "totale_casi": 1, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Torralba", "sigla_provincia": "SS", "lat": 40.514, "lng": 8.7663, "totale_casi": 1, "isolamento": "26", "morti": "???", "dimessi_guariti" : "???", "data": "2020-04-05T01:00", "link_fonte": "" },
+	{ "denominazione_citta": "Villasor", "sigla_provincia": "SU", "lat": 39.3813000, "lng": 8.9427000, "totale_casi": 1, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-29T15:03", "link_fonte": "" },
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{ "denominazione_citta": "La Maddalena", "sigla_provincia": "NU", "lat": 41.2142400, "lng": 9.4083300, "totale_casi": 1, "isolamento": "???", "morti": "???", "dimessi_guariti" : "???", "data": "2020-03-27T01:00", "link_fonte": "" }
+
+]
