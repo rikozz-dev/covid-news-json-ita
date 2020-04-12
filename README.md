@@ -16,7 +16,7 @@ insieme ai dati provenienti da altre fonti attendibili quali [Protezione Civile]
 
 ## Come si usa?
 
-Semplice, ogni regione ha il suo file, denominato
+Semplice, all'interno della cartella 'reg-jsons', ogni regione ha il suo file JSON, denominato
 
 ```bash
   reg-nomeregione.json
@@ -75,6 +75,7 @@ di seguito le indicazioni sui valori dei singoli campi
 ## Importante
 
 **SE USI QUESTA LIBRERIA NEI TUOI PROGETTI CITA LA FONTE**
+
 perché ti stanno fornendo la risorsa gratuitamente ed il minimo che puoi fare è citare questa libreria
 
 **LE CITTA' VANNO MESSE IN ORDINE ALFABETICO PER UNA QUESTIONE DI FACILITA' NELL'AGGIORNARE I DATI DA PARTE DI TUTTI**
@@ -84,6 +85,8 @@ perché ti stanno fornendo la risorsa gratuitamente ed il minimo che puoi fare �
 ## Credits
 
 Autore: [Riccardo Ortu](https://www.instagram.com/rikozz_)
+
 Collaboratore: [Giacomo Collu](https://www.instagram.com/giacomo_collu)
+
 
 In attesa di nuovi collaboratori siamo solo noi due :)
