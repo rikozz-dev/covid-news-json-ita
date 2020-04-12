@@ -24,9 +24,9 @@ Semplice, all'interno della cartella 'reg-jsons', ogni regione ha il suo file JS
 
 dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento.
 
-**Prima di modificare un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01), quindi se dobbiamo archiviare il file 'reg-lazio.json' lo rinomineremo 'reg-lazio-2020-04-09.json', dove la data inserita sta a dichiarare la data in cui il file archiviato è stato creato.**
+**Creando o modificando un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd-username.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01; username = username di github), quindi se dobbiamo archiviare il file 'reg-lazio.json' e ci chiamiamo gianfranco-69 lo rinomineremo 'reg-lazio-2020-04-09-gianfranco-69.json', dove la data inserita sta a dichiarare la data in cui il file è stato creato.**
 
-Facendo un esempio, se voglio inserire 'Roma', dovrò andare a cercare il file 'reg-lazio.json' ed inserire roma secondo la struttura proposta di seguito.
+Facendo un esempio, se voglio inserire 'Roma', dovrò andare a cercare il file 'reg-lazio.json' ed inserire Roma secondo la struttura proposta di seguito.
 Se il file 'reg-lazio.json' non esiste, lo creo secondo il formato JSON.
 
 ```json
@@ -41,6 +41,8 @@ Se il file 'reg-lazio.json' non esiste, lo creo secondo il formato JSON.
     }
   ]
 ```
+
+è disponibile un template ('reg-template.json') da cui fare copia/incolla per l'inserimento di nuovi dati o l'aggiornamento di dati esistenti
 
 la struttura del singolo dato è
 
@@ -86,7 +88,9 @@ di seguito le indicazioni sui valori dei singoli campi
   descrizione_notizia   > :string           > una micro descrizione della notizia con i numeri aggiornati dalla fonte, separati da una virgola ,
 ```
 
-di seguito una panoramica dei dati, di come sono strutturati e di come gestirli
+durante gli aggiornamenti su totale_casi, tamponi_eseguiti, isolamento, morti, dimessi_guariti, i valori di questi vanno sommati ai nuovi valori da aggiornare, quindi se per esempio tamponi_eseguiti è 12, se ne aggiungono 34, il nuovo valore per tamponi_eseguiti sarà 46
+
+di seguito una panoramica delle tipologie di dati, di come sono strutturati e di come gestirli
 
 ```
   :string     >   testo comune, deve essere necessariamente accompagnato dalle virgolette " davanti e dietro; es -> "San Vero Milis"
@@ -97,6 +101,14 @@ di seguito una panoramica dei dati, di come sono strutturati e di come gestirli
 ```
 
 ## Importante
+
+puoi usare questa libreria semplicemente sfruttando i RAW di GitHub, con il link strutturato in
+
+```
+	https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-jsons/reg-nomeregione.json
+```
+
+ovviamente 'reg-nomeregione.json' va cambiato secondo il nome della regione di interesse, per esempio per la Sardegna sarà 'reg-sardegna.json'
 
 **SE USI QUESTA LIBRERIA NEI TUOI PROGETTI CITA LA FONTE**
 

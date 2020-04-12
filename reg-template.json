@@ -1,0 +1,42 @@
+[
+	{
+		"denominazione_citta": "",
+		"sigla_provincia": "",
+		"lat": 0.000000,
+		"lng": 0.000000,
+		"totale_casi": 0,
+		"tamponi_eseguiti": "",
+		"isolamento": "",
+		"morti": "",
+		"dimessi_guariti": "",
+		"data_aggiornamento": "yyyy-mm-ddThh:ii",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "",
+				"link_fonte": "",
+				"data_fonte": "yyyy-mm-ddThh:ii",
+				"descrizione_notizia": ""
+			}
+		]
+	},
+	{
+		"denominazione_citta": "",
+		"sigla_provincia": "",
+		"lat": 0.000000,
+		"lng": 0.000000,
+		"totale_casi": 0,
+		"tamponi_eseguiti": "",
+		"isolamento": "",
+		"morti": "",
+		"dimessi_guariti": "",
+		"data_aggiornamento": "yyyy-mm-ddThh:ii",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "",
+				"link_fonte": "",
+				"data_fonte": "yyyy-mm-ddThh:ii",
+				"descrizione_notizia": ""
+			}
+		]
+	}
+]
