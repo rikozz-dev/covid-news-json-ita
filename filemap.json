@@ -1,43 +1,43 @@
 [
 	{
 		"provincia": "CA",
-		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-or.json",
+		"file_path": "/reg-sardegna/reg-sardegna-prov-or.json",
 		"regione": "Sardegna",
 		"autore": "rikozz-dev"
 	},
 	{
 		"provincia": "NU",
-		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-nu.json",
+		"file_path": "/reg-sardegna/reg-sardegna-prov-nu.json",
 		"regione": "Sardegna",
 		"autore": "rikozz-dev"
 	},
 	{
 		"provincia": "OR",
-		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-or.json",
+		"file_path": "/reg-sardegna/reg-sardegna-prov-or.json",
 		"regione": "Sardegna",
 		"autore": "rikozz-dev"
 	},
 	{
 		"provincia": "SS",
-		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-ss.json",
+		"file_path": "/reg-sardegna/reg-sardegna-prov-ss.json",
 		"regione": "Sardegna",
 		"autore": "rikozz-dev"
 	},
 	{
 		"provincia": "SU",
-		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-su.json",
+		"file_path": "/reg-sardegna/reg-sardegna-prov-su.json",
 		"regione": "Sardegna",
 		"autore": "rikozz-dev"
 	},
 	{
 		"provincia": "BZ",
-		"file_path": "/reg-list/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-bz.json",
+		"file_path": "/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-bz.json",
 		"regione": "Trentino Alto Adige",
 		"autore": "rootvanterr"
 	},
 	{
 		"provincia": "TN",
-		"file_path": "/reg-list/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-tn.json",
+		"file_path": "/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-tn.json",
 		"regione": "Trentino Alto Adige",
 		"autore": "rootvanterr"
 	}
