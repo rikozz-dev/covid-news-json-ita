@@ -1,0 +1,149 @@
+[
+	{
+		"denominazione_citta": "Fondo-Borgo d'Anaunia / Fòn",
+		"sigla_provincia": "TN",
+		"lat": 46.262301,
+		"lng": 11.080966,
+		"totale_casi": 1,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Arco ",
+		"sigla_provincia": "TN",
+		"lat": 45.9178263,
+		"lng": 10.8868655,
+		"totale_casi": 318,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "25",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Dro ",
+		"sigla_provincia": "TN",
+		"lat": 45.9623686,
+		"lng": 10.9123754,
+		"totale_casi": 72,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "16",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Trento ",
+		"sigla_provincia": "TN",
+		"lat": 46.0702531,
+		"lng": 11.1216386,
+		"totale_casi": 474,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "30",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Rovereto ",
+		"sigla_provincia": "TN",
+		"lat": 45.8906481,
+		"lng": 11.0398703,
+		"totale_casi": 132,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "13",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Pergine Valsugana ",
+		"sigla_provincia": "TN",
+		"lat": 46.0616990,
+		"lng": 11.2371232,
+		"totale_casi": 220,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "27",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	},
+	{
+		"denominazione_citta": "Ledro ",
+		"sigla_provincia": "TN",
+		"lat": 45.53193,
+		"lng": 10.43571,
+		"totale_casi": 220,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "27",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-14T13:15",
+		"fonti_notizie": [
+			{
+				"nome_fonte": "il Dolomiti",
+				"link_fonte": "https://www.ildolomiti.it/cronaca/2020/coronavirus-in-alto-adige-aumentano-i-casi-a-bolzano-laives-e-bressanone-sei-nuovi-contagiati-a-tesimo",
+				"data_fonte": "2020-04-13T13:41",
+				"descrizione_notizia": "Coronavirus in Trentino-Alto Adige",
+				"autore_modifica": "rootvanterr"
+			}
+		]
+	}
+]

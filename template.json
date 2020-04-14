@@ -15,7 +15,8 @@
 				"nome_fonte": "",
 				"link_fonte": "",
 				"data_fonte": "yyyy-mm-ddThh:ii",
-				"descrizione_notizia": ""
+				"descrizione_notizia": "",
+				"autore_modifica": ""
 			}
 		]
 	},
@@ -35,7 +36,8 @@
 				"nome_fonte": "",
 				"link_fonte": "",
 				"data_fonte": "yyyy-mm-ddThh:ii",
-				"descrizione_notizia": ""
+				"descrizione_notizia": "",
+				"autore_modifica": ""
 			}
 		]
 	}
