@@ -32,13 +32,13 @@
 	{
 		"provincia": "BZ",
 		"file_path": "/reg-list/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-bz.json",
-		"regione": "Sardegna",
+		"regione": "Trentino Alto Adige",
 		"autore": "rootvanterr"
 	},
 	{
 		"provincia": "TN",
 		"file_path": "/reg-list/reg-trentino-alto-adige/reg-trentino-alto-adige-prov-tn.json",
-		"regione": "Sardegna",
+		"regione": "Trentino Alto Adige",
 		"autore": "rootvanterr"
 	}
 ]
