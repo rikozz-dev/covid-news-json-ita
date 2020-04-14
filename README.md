@@ -16,17 +16,17 @@ insieme ai dati provenienti da altre fonti attendibili quali [Protezione Civile]
 
 ## Come si usa?
 
-Semplice, all'interno della cartella 'reg-list', ogni regione ha la sua cartella, con all'interno dei file JSON suddivisi in province, con path simile a:
+Semplice, ogni regione ha la sua cartella, con all'interno dei file JSON suddivisi in province, con path simile a:
 
 ```bash
-   /reg-list/reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
+   /reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
 ```
 
 dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento, e 'siglaprovincia' è da sostituire con la sigla della provincia di riferimento.
 
 __~~Creando o modificando un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd-username.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01; username = username di github), quindi se dobbiamo archiviare il file 'reg-lazio.json' e ci chiamiamo gianfranco-69 lo rinomineremo 'reg-lazio-2020-04-09-gianfranco-69.json', dove la data inserita sta a dichiarare la data in cui il file è stato creato.~~__
 
-Facendo un esempio, se voglio inserire la città di 'Roma', dovrò andare a cercare il file 'reg-lazio-prov-rm.json', all'interno della cartella '/reg-list/reg-lazio' ed inserire Roma secondo la struttura proposta di seguito.
+Facendo un esempio, se voglio inserire la città di 'Roma', dovrò andare a cercare il file 'reg-lazio-prov-rm.json', all'interno della cartella '/reg-lazio' ed inserire Roma secondo la struttura proposta di seguito.
 Se il file 'reg-lazio-prov-rm.json' non esiste, lo creo secondo il formato JSON disponibile nel template ('reg-prov-template.json') da cui fare copia/incolla per l'inserimento di nuovi dati o l'aggiornamento di dati esistenti
 
 la struttura del singolo dato è
@@ -102,7 +102,7 @@ La mappa dei file è disponibile nella cartella root e si chiama 'filemap.json',
 ```json
   {
     "provincia": "SS",
-    "file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-ss.json",
+    "file_path": "/reg-sardegna/reg-sardegna-prov-ss.json",
     "regione": "Sardegna",
     "autore": "rikozz-dev"
   },
@@ -115,7 +115,7 @@ La mappa dei file è disponibile nella cartella root e si chiama 'filemap.json',
 puoi usare questa libreria semplicemente sfruttando i RAW di GitHub, con il link strutturato in
 
 ```
-https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-list/reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
+https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
 ```
 
 ovviamente 'nomeregione' va cambiato secondo il nome della regione di interesse, per esempio per la Sardegna sarà 'sardegna', e 'siglaprovincia' va cambiato con la sigla della provincia (due lettere), ad esempio per la provincia di Oristano sarà 'or'
@@ -142,11 +142,14 @@ Autore: [Riccardo Ortu](https://www.instagram.com/rikozz_)
 
 ### Per la Sardegna
 
-[Giacomo Collu](https://www.instagram.com/giacomo_collu), collaboratore
-
 [Riccardo Ortu](https://www.instagram.com/rikozz_), creatore, inserimento dati
 
 [Roberto Martis](https://www.instagram.com/rootvanterr), inserimento dati
+
+### Per il Trentino Alto Adige
+
+[Roberto Martis](https://www.instagram.com/rootvanterr), inserimento dati
+
 
 .
 
