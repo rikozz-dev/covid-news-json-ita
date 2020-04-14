@@ -4,7 +4,7 @@ Benvenuto nella repo di covid-news-json-ita
 
 ## Cos'è?
 
-è una libreria di files *.json in cui sono salvati tutte le città italiane suddivise per regione
+è una libreria di files *.json in cui sono salvati tutte le città italiane suddivise per regione e provincia
 
 ## Dove posso osservare tutto in tempo reale?
 
@@ -16,33 +16,18 @@ insieme ai dati provenienti da altre fonti attendibili quali [Protezione Civile]
 
 ## Come si usa?
 
-Semplice, all'interno della cartella 'reg-jsons', ogni regione ha il suo file JSON, denominato
+Semplice, all'interno della cartella 'reg-list', ogni regione ha la sua cartella, con all'interno dei file JSON suddivisi in province, con path simile a:
 
 ```bash
-  reg-nomeregione.json
+   /reg-list/reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
 ```
 
-dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento.
+dove ovviamente 'nomeregione' è da sostituire con il nome della regione di riferimento, e 'siglaprovincia' è da sostituire con la sigla della provincia di riferimento.
 
-**Creando o modificando un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd-username.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01; username = username di github), quindi se dobbiamo archiviare il file 'reg-lazio.json' e ci chiamiamo gianfranco-69 lo rinomineremo 'reg-lazio-2020-04-09-gianfranco-69.json', dove la data inserita sta a dichiarare la data in cui il file è stato creato.**
+__~~Creando o modificando un qualsiasi file copiarlo nella cartella 'reg-jsons-archive', rinominandolo 'reg-nomeregione-yyyy-mm-dd-username.json', (dove: yyyy = anno, es. 2020; mm = mese, es. 04; dd = giorno es. 01; username = username di github), quindi se dobbiamo archiviare il file 'reg-lazio.json' e ci chiamiamo gianfranco-69 lo rinomineremo 'reg-lazio-2020-04-09-gianfranco-69.json', dove la data inserita sta a dichiarare la data in cui il file è stato creato.~~__
 
-Facendo un esempio, se voglio inserire 'Roma', dovrò andare a cercare il file 'reg-lazio.json' ed inserire Roma secondo la struttura proposta di seguito.
-Se il file 'reg-lazio.json' non esiste, lo creo secondo il formato JSON.
-
-```json
-  [
-    {
-      "dato_generico": "valore",
-      "dato_numerico": 123
-    },
-    {
-      "dato_generico": "valore 2",
-      "dato_numerico": 456
-    }
-  ]
-```
-
-è disponibile un template ('reg-template.json') da cui fare copia/incolla per l'inserimento di nuovi dati o l'aggiornamento di dati esistenti
+Facendo un esempio, se voglio inserire la città di 'Roma', dovrò andare a cercare il file 'reg-lazio-prov-rm.json', all'interno della cartella '/reg-list/reg-lazio' ed inserire Roma secondo la struttura proposta di seguito.
+Se il file 'reg-lazio-prov-rm.json' non esiste, lo creo secondo il formato JSON disponibile nel template ('reg-prov-template.json') da cui fare copia/incolla per l'inserimento di nuovi dati o l'aggiornamento di dati esistenti
 
 la struttura del singolo dato è
 
@@ -59,9 +44,20 @@ la struttura del singolo dato è
       "dimessi_guariti" : "???",
       "data_aggiornamento": "2020-04-05T01:00",
       "fonti_notizie": [
-          { "nome_fonte": "Giornale 123", "link_fonte": "https://www.xxxxxxxx.it/zzzzzz", "data_fonte": "2020-03-28T12:00", "descrizione_notizia": "+1 contagio" },
-          { "nome_fonte": "Giornale 456", "link_fonte": "https://www.nnnnnnnn.it/yyyyyy", "data_fonte": "2020-04-01T22:30", "descrizione_notizia": "+56 tamponi, +1 contagio" },
-          { "nome_fonte": "Giornale 789", "link_fonte": "https://www.cccccccc.it/aaaaaa", "data_fonte": "2020-04-05T01:00", "descrizione_notizia": "+2 contagi" }
+          {
+              "nome_fonte": "Giornale 123", 
+              "link_fonte": "https://www.xxxxxxxx.it/zzzzzz", 
+              "data_fonte": "2020-03-28T12:00", 
+              "descrizione_notizia": "+1 contagio",
+              "autore_modifica": "rikozz-dev"
+          },
+          {
+              "nome_fonte": "Giornale 456", 
+              "link_fonte": "https://www.nnnnnnnn.it/yyyyyy", 
+              "data_fonte": "2020-04-01T22:30", 
+              "descrizione_notizia": "+56 tamponi, +1 contagio",
+              "autore_modifica": "rootvanterr"
+          }
       ]
   }
 ```
@@ -86,6 +82,7 @@ di seguito le indicazioni sui valori dei singoli campi
   link_fonte            > :string           > link della fonte da cui si sono prese le notizie  
   data_fonte            > :datetime         > data della fonte da cui si sono prese le notizie in formato yyyy-mm-ddThh:ii (ISO8601>W3_STANDARD) 
   descrizione_notizia   > :string           > una micro descrizione della notizia con i numeri aggiornati dalla fonte, separati da una virgola ,
+  autore_modifica       > :string           > username GitHub di colui che sta aggiungendo la modifica
 ```
 
 durante gli aggiornamenti su totale_casi, tamponi_eseguiti, isolamento, morti, dimessi_guariti, i valori di questi vanno sommati ai nuovi valori da aggiornare, quindi se per esempio tamponi_eseguiti è 12, se ne aggiungono 34, il nuovo valore per tamponi_eseguiti sarà 46
@@ -100,15 +97,28 @@ di seguito una panoramica delle tipologie di dati, di come sono strutturati e di
   :array      >   insieme di valori [1,2,3,..] in questo caso ogni valore deve seguire il formato { "dato_generico": "valore", "dato_numerico": 123 }, serve sempre la virgola tra un valore e l'altro
 ```
 
+La mappa dei file è disponibile nella cartella root e si chiama 'filemap.json', il modello con cui inserire nuovi dati è questo, 'file_path' è da considerarsi relativo al root della rempo
+
+```json
+  {
+    "provincia": "SS",
+    "file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-ss.json",
+    "regione": "Sardegna",
+    "autore": "rikozz-dev"
+  },
+```
+
+
+
 ## Importante
 
 puoi usare questa libreria semplicemente sfruttando i RAW di GitHub, con il link strutturato in
 
 ```
-https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-jsons/reg-nomeregione.json
+https://raw.githubusercontent.com/rikozz-dev/covid-news-json-ita/master/reg-list/reg-nomeregione/reg-nomeregione-prov-siglaprovincia.json
 ```
 
-ovviamente 'reg-nomeregione.json' va cambiato secondo il nome della regione di interesse, per esempio per la Sardegna sarà 'reg-sardegna.json'
+ovviamente 'nomeregione' va cambiato secondo il nome della regione di interesse, per esempio per la Sardegna sarà 'sardegna', e 'siglaprovincia' va cambiato con la sigla della provincia (due lettere), ad esempio per la provincia di Oristano sarà 'or'
 
 ### SE USI QUESTA LIBRERIA NEI TUOI PROGETTI CITA LA FONTE
 
