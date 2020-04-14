@@ -1,0 +1,28 @@
+[
+	{
+		"provincia": "CA",
+		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-or.json",
+		"regione": "Sardegna"
+	},
+	{
+		"provincia": "NU",
+		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-nu.json",
+		"regione": "Sardegna"
+	},
+	{
+		"provincia": "OR",
+		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-or.json",
+		"regione": "Sardegna"
+	},
+
+	{
+		"provincia": "SS",
+		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-ss.json",
+		"regione": "Sardegna"
+	},
+	{
+		"provincia": "SU",
+		"file_path": "/reg-list/reg-sardegna/reg-sardegna-prov-su.json",
+		"regione": "Sardegna"
+	}
+]

@@ -1,0 +1,54 @@
+[
+	{
+		"denominazione_citta": "Calangianus",
+		"sigla_provincia": "NU",
+		"lat": 40.9208,
+		"lng": 9.1958,
+		"totale_casi": 1,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-31T10:30",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Fonni",
+		"sigla_provincia": "NU",
+		"lat": 40.1193200,
+		"lng": 9.2534700,
+		"totale_casi": 3,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-31T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Nuoro",
+		"sigla_provincia": "NU",
+		"lat": 40.3221,
+		"lng": 9.3307,
+		"totale_casi": 60,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-31T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Olbia",
+		"sigla_provincia": "NU",
+		"lat": 40.9224,
+		"lng": 9.4866,
+		"totale_casi": 29,
+		"tamponi_eseguiti": "???",
+		"isolamento": "279",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-02T01:00",
+		"fonti_notizie": []
+	}
+]

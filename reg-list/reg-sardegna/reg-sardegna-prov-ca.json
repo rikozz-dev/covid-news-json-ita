@@ -1,0 +1,67 @@
+[
+	{
+		"denominazione_citta": "Cagliari",
+		"sigla_provincia": "CA",
+		"lat": 39.23054,
+		"lng": 9.11917,
+		"totale_casi": 126,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-1T22:00",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Decimomannu",
+		"sigla_provincia": "CA",
+		"lat": 39.3128,
+		"lng": 8.9698,
+		"totale_casi": 1,
+		"tamponi_eseguiti": "???",
+		"isolamento": "2",
+		"morti": "1",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-29T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Monserrato",
+		"sigla_provincia": "CA",
+		"lat": 39.25611111,
+		"lng": 9.14527777,
+		"totale_casi": 2,
+		"tamponi_eseguiti": "???",
+		"isolamento": "4",
+		"morti": "1",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-29T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Nuoro",
+		"sigla_provincia": "NU",
+		"lat": 40.3221,
+		"lng": 9.3307,
+		"totale_casi": 60,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-31T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Pula",
+		"sigla_provincia": "CA",
+		"lat": 39.0085,
+		"lng": 9.0026,
+		"totale_casi": 2,
+		"tamponi_eseguiti": "???",
+		"isolamento": "10",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-01T15:03",
+		"fonti_notizie": []
+	}
+]

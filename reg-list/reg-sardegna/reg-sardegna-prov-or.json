@@ -1,0 +1,93 @@
+[
+	{
+		"denominazione_citta": "Arborea",
+		"sigla_provincia": "OR",
+		"lat": 39.774,
+		"lng": 8.5814,
+		"totale_casi": 2,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-01T15:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Bosa",
+		"sigla_provincia": "OR",
+		"lat": 40.2992700,
+		"lng": 8.4982700,
+		"totale_casi": 4,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-5T01:00",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Cabras",
+		"sigla_provincia": "OR",
+		"lat": 39.9287100,
+		"lng": 8.5324200,
+		"totale_casi": 5,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "1",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-5T02:00",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Gonnosnò",
+		"sigla_provincia": "OR",
+		"lat": 39.761,
+		"lng": 8.8729,
+		"totale_casi": 1,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-5T01:00",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Marrubiu",
+		"sigla_provincia": "OR",
+		"lat": 39.7532,
+		"lng": 8.6382,
+		"totale_casi": 1,
+		"tamponi_eseguiti": "???",
+		"isolamento": "1",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-05T01:00",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Nurachi",
+		"sigla_provincia": "OR",
+		"lat": 39.9745100,
+		"lng": 8.5396500,
+		"totale_casi": 4,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-03-30T0:03",
+		"fonti_notizie": []
+	},
+	{
+		"denominazione_citta": "Oristano",
+		"sigla_provincia": "OR",
+		"lat": 39.9035,
+		"lng": 8.5958,
+		"totale_casi": 11,
+		"tamponi_eseguiti": "???",
+		"isolamento": "???",
+		"morti": "???",
+		"dimessi_guariti": "???",
+		"data_aggiornamento": "2020-04-1T12:00",
+		"fonti_notizie": []
+	}
+]
